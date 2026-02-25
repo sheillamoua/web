@@ -13,7 +13,9 @@ function Size () {
         direction = "smaller"
     }
     if(direction == bigger) {
+        size = size - 1
+    }
+    if(direction == smaller) {
         size = size + 1
     }
-    if(direction == smaller)
 }
