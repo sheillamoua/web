@@ -3,4 +3,8 @@
 }
 body {
     background: orange;
+    height: 100vh;
+    justify-content: center;
 }
+
+.square
