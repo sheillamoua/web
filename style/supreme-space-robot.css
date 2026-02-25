@@ -2,11 +2,12 @@
     box-sitting: border-box;
 }
 body {
-    background: red;
     height: 100vh;
-    justify-content: center;
     display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0;
+    background: red;
 }
 
 .square {
