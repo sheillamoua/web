@@ -13,5 +13,7 @@ body {
 .square {
     height: 50px;
     width: 50px;
+    align-items: center;
+    justify-content: center;
     background: blue;
 }
