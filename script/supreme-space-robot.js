@@ -1,5 +1,7 @@
 square = document.querySelector('.square')
 
-function size () {
-    size 
+size = 50
+
+function Size () {
+    size
 }
