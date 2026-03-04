@@ -41,3 +41,7 @@ hover.addEventListener('mouseleave', () =>{
     hover.style.height = "60px"
     hover.style.width = "250px"
 })
+
+dblclick.addEventListener("dblclick", () => {
+    
+})
