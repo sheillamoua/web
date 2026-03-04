@@ -19,8 +19,11 @@ spin.addEventListener('click', () =>{
     spin.classList.toggle('start')
 })
 
+x = 0
+
 document.addEventListener('keydown',(event) =>{
     if (event.key == 'ArrowRight') {
-        move.style.transform = "translateX(10px)"
+        x = x + 10;
+        move.style.transform = `translateX(${x}px)`
     }
 })
