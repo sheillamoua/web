@@ -43,7 +43,6 @@ body {
     bottom: 50px;
     right: 50px;
     opacity: 1;
-    transition: transform 1s ease;
 }
 
 .start {
