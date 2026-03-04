@@ -43,9 +43,7 @@ hover.addEventListener('mouseleave', () =>{
 })
 
 dblclick.addEventListener("dblclick", () => {
-    load = 0
-    load = load + 1
-    dblclick.style.opacity = 1-load/100
+    dblclick.style.
 
 })
 
