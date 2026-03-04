@@ -44,7 +44,6 @@ hover.addEventListener('mouseleave', () =>{
 
 dblclick.addEventListener("dblclick", () => {
     dblclick.style.opacity = 0
-    transition
 
 })
 
