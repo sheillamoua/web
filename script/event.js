@@ -25,10 +25,10 @@ y = 0
 document.addEventListener('keydown',(event) =>{
     if (event.key == 'ArrowRight') {
         x = x + 10;
-        move.style.transform = `translateX(${x}px)`
+        move.style.transform = `translate(${x}px, ${y}px)`
     }
     if (event.key == 'ArrowUp') {
         y = y - 10;
-        move.style.transform = `translateY(${y}px)`
+        move.style.transform = `translate(${y}px, ${x}px)`
     }
 })
