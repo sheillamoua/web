@@ -43,6 +43,6 @@ hover.addEventListener('mouseleave', () =>{
 })
 
 dblclick.addEventListener("dblclick", () => {
-    dblclick.style.transform = "scale(0)"
+    dblclick.style.background = 
 })
 
