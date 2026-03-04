@@ -20,5 +20,7 @@ spin.addEventListener('click', () =>{
 })
 
 document.addEventListener('keydown',(event) =>{
-    console.log(event.key)
+    if (event.key == 'ArrowRight') {
+        move.style.transform = "translateX(10px)"
+    }
 })
