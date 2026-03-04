@@ -18,3 +18,7 @@ click.addEventListener('click', () => {
 spin.addEventListener('click', () =>{
     spin.classList.toggle('start')
 })
+
+document.addEventListener('keydown',(event) =>{
+    console.log(event.key)
+})
