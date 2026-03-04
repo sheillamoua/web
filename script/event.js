@@ -42,7 +42,9 @@ hover.addEventListener('mouseleave', () =>{
     hover.style.width = "250px"
 })
 
+load = 0
 dblclick.addEventListener("dblclick", () => {
-    dblclick.style.background = url()
+    dblclick.style.opacity = 1-load/100
+
 })
 
