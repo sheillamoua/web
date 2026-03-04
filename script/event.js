@@ -33,10 +33,11 @@ document.addEventListener('keydown',(event) =>{
 
 
 hover.addEventListener('mouseenter', () =>{
-
+    hover.style.height = "40px"
+    hover.style.width = "100px"
 })
 
 hover.addEventListener('mouseleave', () =>{
-    top: 50px;
-    right: 50px;
+    hover.style.height = "60px"
+    hover.style.width = "250px"
 })
