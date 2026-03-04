@@ -20,10 +20,15 @@ spin.addEventListener('click', () =>{
 })
 
 x = 0
+y = 0
 
 document.addEventListener('keydown',(event) =>{
     if (event.key == 'ArrowRight') {
         x = x + 10;
         move.style.transform = `translateX(${x}px)`
+    }
+    if (event.key == 'ArrowUp') {
+        y = x + 10;
+        move.style.transform = `translateY(${y}px)`
     }
 })
