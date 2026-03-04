@@ -4,6 +4,7 @@ move = document.querySelector('.move')
 hover = document.querySelector('.hover')
 dblclick = document.querySelector('.dblclick')
 
+
 colors = ['blue','purple','pink']
 index = 0
 click.addEventListener('click', () => {
@@ -29,6 +30,6 @@ document.addEventListener('keydown',(event) =>{
     }
     if (event.key == 'ArrowUp') {
         y = y - 10;
-        move.style.transform = `translate(${y}px, ${x}px)`
+        move.style.transform = `translate(${x}px, ${y}px)`
     }
 })
