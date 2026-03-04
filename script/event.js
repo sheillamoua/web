@@ -30,3 +30,12 @@ document.addEventListener('keydown',(event) =>{
     if (event.key == 'ArrowDown') {y = y + 10;}
     move.style.transform = `translate(${x}px, ${y}px)`
 })
+
+
+hover.addEventListener('mouseenter', () =>{
+    
+})
+
+hover.addEventListener('mouseleave', () =>{
+
+})
