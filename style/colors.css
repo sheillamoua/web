@@ -15,7 +15,7 @@ body {
     height: 100vh;
     width: 100vw;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 24px;
     position: absolute;
     display: flex;
     justify-content: center;
