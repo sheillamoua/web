@@ -12,9 +12,8 @@ body {
 }
 
 .box {
-    background: pink;
-    height: 100px;
-    width: 100px;
+    height: 100vh;
+    width: 100vw;
     cursor: pointer;
     font-size: 18px;
     position: absolute;
