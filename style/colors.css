@@ -22,3 +22,6 @@ body {
     justify-content: center;
     align-items: center;
 }
+.bg {
+    background: purple;
+}
