@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: RGB(230,230,250);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.box {
+    background: pink;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    font-size: 18px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
