@@ -46,7 +46,3 @@ dblclick.addEventListener("dblclick", () => {
     dblclick.style.transform = "scale(0)"
 })
 
-dblclick.addEventListener('click', () =>{
-    dblclick.style.transform = "scale(1)"
-})
-
