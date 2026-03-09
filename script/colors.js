@@ -7,6 +7,8 @@ index = 0
 box.addEventListener('click', () => {
     click.style.background = colors[index]
     index = index + 1
-    if (index == colors.length){
+    if (index == colors.length) {
         index = 0
+    }
+
 })
