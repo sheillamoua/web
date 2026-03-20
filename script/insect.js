@@ -25,6 +25,6 @@ function startGame() {
 function createInsect() {
     insect = document.createElement('div')
     insect.classList.add('insect')
-    insect.innerHTML = `<img src="images/butterfly.png" alt="Butterfly">`
+    insect.innerHTML = `<img src="${src}" alt="${alt}">`
     game_container.appendChild(insect)
 }
