@@ -44,5 +44,6 @@ function catchInsect() {
     //increase Score()
     this.classList.add('caught')
     setTimeout() => this.remove(), 2000
-    addInsects()
+    setTimeout(createInsect.1000)
 }
+
