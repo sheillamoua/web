@@ -62,6 +62,6 @@ function increaseScore() {
 
 function increaseTime() {
     seconds = seconds + 1
-    m = seconds/60
+    m = Math.floor(seconds/60)
     timeEl.innerHTML = `Time: ${m}:${seconds}`
 }
