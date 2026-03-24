@@ -50,6 +50,7 @@ function getRandomLocation() {
 }
 
 function catchInsect() {
+    const insect = document.createElement('div')
     increaseScore()
     insect.classList.add('caught')
     setTimeout(() => insect.remove(), 2000)
