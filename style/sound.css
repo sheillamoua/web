@@ -28,3 +28,9 @@ body {
 .btn:hover {
     opacity: 0.9;
 }
+
+a {
+    list-style-type: none;
+    top: 50px;
+    left: 50px;
+}
