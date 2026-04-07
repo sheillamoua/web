@@ -1,4 +1,4 @@
-hover = document.querySelector('.menua')
+hover = document.querySelector(".menu a")
 
 hover.addEventListener('mouseenter', () =>{
     hover.style.height = "40px"
