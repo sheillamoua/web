@@ -49,6 +49,15 @@ body {
     animation: spin 1s linear infinite;
 }
 
+h1 a{
+    color: pink;
+    text-decoration: none;
+    position: absolute;
+    top: 10px;
+    left: 70px;
+
+}
+
 
 @keyframes spin {
     from {

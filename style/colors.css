@@ -21,3 +21,12 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+h1 a{
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+

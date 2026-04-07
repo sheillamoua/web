@@ -53,3 +53,11 @@ body{
 .search.active .btn {
     transform: translateX(198px);
 }
+
+h1 a{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}

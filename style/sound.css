@@ -29,8 +29,10 @@ body {
     opacity: 0.9;
 }
 
-a {
-    list-style-type: none;
+h1 a{
+    color: white;
+    text-decoration: none;
+    position: absolute;
     top: 50px;
     left: 50px;
 }

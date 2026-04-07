@@ -13,16 +13,17 @@ body {
 }
 
 .menu ul {
-    display: flex;
-    align-items: left;
-    justify-content: left;
+    position: absolute;
+    top: 30px;
+    right: 50px;
     list-style-type: none;
-    letter-spacing: 1px;
+    cursor:pointer;
 }
 
 .menu a {
-    color: black;
+    color: white;
     text-decoration: none;
+    size: 20px;
 }
 
 a:hover {
@@ -31,24 +32,10 @@ a:hover {
 }
 
 .hero h1 {
-     font-size: 46px;
+    font-size: 46px;
     margin: -20px 0px 20px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
 }
 
-.containter {
-
-}
-
-.hero {
-    background-image: url('../images/flower.avif');
-    height: 100vh;
-    width: 100vw;
-    background-repeat: no-repeat;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    position: center;
-    background-size: cover;
-}
