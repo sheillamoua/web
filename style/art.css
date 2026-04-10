@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg,lightpink, yellow, lightblue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.house {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 170px;
+    border: 2px solid black;
+    background: lightpink;
+}
+
+.roof-left {
+    height: 100px;
+    width: 1px;
+    border: 2px solid black;
+    position: absolute;
+    top: 70px;
+    transform: 45deg;
+}
