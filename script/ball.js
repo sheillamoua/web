@@ -27,7 +27,8 @@ let ballXDirection = 1
 let ballYPosition = windowHeight/2 - ballRadius
 let ballYDirection = 1
 
-let score = 0
+const score = document.createElement('div')
+document.body.appendChild(score)
 
 //setInterval(moveBall, 10)
 function moveBall(){
@@ -41,6 +42,7 @@ function moveBall(){
     let RPaddleTop = RPaddleYPosition
     let RPaddleBottom = RPaddleYPosition + RPaddleHeight
     let RPaddleLeft = RPaddleXPosition + RPaddleWidth
+    let RPaddleRight = RPaddleXPosition + RPaddleWidth
 
     ballXPosition = ballXPosition + ballSpeed * ballXDirection
     ballYPosition = ballYPosition + ballSpeed * ballYDirection
@@ -64,9 +66,9 @@ function moveBall(){
         (ballBottom >= RPaddleTop) &&
         (ballTop <= RPaddleBottom) &&
         (ballRight <= RPaddleLeft) &&
-        (ballYDirection == -1)
+        (ballXirection == -1)
     ) {
-        ballYDirection = ballYDirection * -1
+        ballXDirection = ballXDirection * -1
     }
 }
 
@@ -103,7 +105,6 @@ function createscore(){
     score.style.position = 'absolute'
     score.style.top= "20px"
     score.style.right= "20px"
-    score = score + 1
     score.innerHTML = `Score: ${score}`
 }
 
