@@ -27,6 +27,8 @@ let ballXDirection = 1
 let ballYPosition = windowHeight/2 - ballRadius
 let ballYDirection = 1
 
+let score = 0
+
 //setInterval(moveBall, 10)
 function moveBall(){
     let ballTop = ballYPosition
