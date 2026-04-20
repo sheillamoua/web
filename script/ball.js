@@ -98,6 +98,7 @@ function createRPaddle(){
     RPaddle.style.right = "50px"
     RPaddle.style.height = `${RPaddleYPosition}px`
 }
+function
 
 wKey= false
 sKey= false
