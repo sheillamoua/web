@@ -10,19 +10,74 @@ body {
 }
 
 .house {
-    height: 300px;
-    width: 300px;
+    height: 280px;
+    width: 280px;
     position: absolute;
     top: 170px;
     border: 2px solid black;
     background: lightpink;
 }
 
-.roof-left {
-    height: 100px;
+.roof {
     width: 1px;
-    border: 2px solid black;
+    height: 1px;
+    border-left: 170px solid transparent;
+    border-right: 170px solid transparent;
+    border-bottom: 170px solid black;
+}
+
+.door {
     position: absolute;
+    height: 80px;
+    width: 60px;
+    top: 370px;
+    background: rgb(230,230,250);
+    border: 1px solid black;
+}
+
+.window-topL {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 250px;
+    left: 580px;
+    border: 1px solid black;
+
+}
+
+.window-topR {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 250px;
+    right: 580px;
+    border: 1px solid black;
+}
+
+.window-bottomL {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    bottom: 250px;
+    left: 580px;
+    border: 1px solid black;
+}
+
+.window-bottomR {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    bottom: 250px;
+    right: 580px;
+    border: 1px solid black;
+}
+
+.chimney {
+    position: absolute;
+    height: 50px;
+    width: 30px;
     top: 70px;
-    transform: 45deg;
+    left:570px;
+    background: orange;
+    border: 1px solid black;
 }
