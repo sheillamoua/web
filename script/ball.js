@@ -99,6 +99,8 @@ function createRPaddle(){
 score()
 function score(){
     score.style.position = 'absolute'
+    score.style.top= "20px"
+    score.style.right= "20px"
     score = score + 1
     score.innerHTML = `Score: ${score}`
 }
