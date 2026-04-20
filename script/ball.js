@@ -98,9 +98,11 @@ function createRPaddle(){
     RPaddle.style.right = "50px"
     RPaddle.style.height = `${RPaddleYPosition}px`
 }
+score()
 function score(){
     score.style.position = 'absolute'
-    
+    score = score + 1
+    score.innerHTML = `Score: ${score}`
 }
 
 wKey= false
