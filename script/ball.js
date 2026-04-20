@@ -40,7 +40,7 @@ function moveBall(){
     let LPaddleRight = LPaddleXPosition + LPaddleWidth
     let RPaddleTop = RPaddleYPosition
     let RPaddleBottom = RPaddleYPosition + RPaddleHeight
-    let RPaddleRight = RPaddleXPosition + RPaddleWidth
+    let RPaddleLeft = RPaddleXPosition + RPaddleWidth
 
     ballXPosition = ballXPosition + ballSpeed * ballXDirection
     ballYPosition = ballYPosition + ballSpeed * ballYDirection
