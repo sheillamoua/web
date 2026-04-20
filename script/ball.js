@@ -96,8 +96,8 @@ function createRPaddle(){
     RPaddle.style.right = "50px"
     RPaddle.style.height = `${RPaddleYPosition}px`
 }
-score()
-function score(){
+createscore()
+function createscore(){
     score.style.position = 'absolute'
     score.style.top= "20px"
     score.style.right= "20px"
