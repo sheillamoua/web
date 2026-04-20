@@ -34,6 +34,7 @@ function moveBall(){
     let ballTop = ballYPosition
     let ballBottom = ballYPosition + 2 * ballRadius
     let ballLeft = ballXPosition
+    let ballRight = ballXPosition
     let LPaddleTop = LPaddleYPosition
     let LPaddleBottom = LPaddleYPosition + LPaddleHeight
     let LPaddleRight = LPaddleXPosition + LPaddleWidth
